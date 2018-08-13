@@ -6,7 +6,7 @@ description 'Installs/Configures chef_client_wrapper'
 long_description 'Installs/Configures chef_client_wrapper'
 version '0.1.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
-supports 'centos', '>= 7'
+supports 'centos', '7'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
