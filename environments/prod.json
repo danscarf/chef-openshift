@@ -1,0 +1,17 @@
+{
+    "name": "prod",
+    "description": "The one and only environment, for now",
+    "chef_type": "environment",
+    "cookbook_versions": {
+        "chef_client_wrapper" : "0.1.0",
+        "os_server_role_wrapper": "0.1.0"
+    },
+    "default_attributes" : {
+
+    },
+
+    "override_attributes" : {
+        "applications":{
+        }
+    }
+}
