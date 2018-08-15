@@ -4,7 +4,8 @@
     "chef_type": "environment",
     "cookbook_versions": {
         "chef_client_wrapper" : "0.1.0",
-        "os_server_role_wrapper": "0.1.0"
+        "openshift_base" : "0.1.0",
+        "openshift_server_role": "0.1.0"
     },
     "default_attributes" : {
 
