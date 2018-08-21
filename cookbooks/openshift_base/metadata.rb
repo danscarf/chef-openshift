@@ -11,10 +11,13 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/openshift_base/issues'
+# issues_url 'https://github.com/danscarf/chef-openshift/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/openshift_base'
+source_url 'https://github.com/danscarf/chef-openshift'
+depends 'chef-client', '11.0.0'
+depends 'cron', '6.2.0'
+depends 'logrotate', '2.2.0'

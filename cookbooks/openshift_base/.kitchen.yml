@@ -13,12 +13,12 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu-16.04
   - name: centos-7
 
 suites:
   - name: default
     run_list:
+      - recipe[openshift_base::chef_client_wrapper]
       - recipe[openshift_base::default]
     verifier:
       inspec_tests:
